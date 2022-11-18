@@ -1,0 +1,31 @@
+.nav-item a{
+    color: black;
+    margin-right: 1em;
+    
+}
+
+
+.nav-item >.active{
+    color: red;
+}
+
+.nav-item btn{
+    color: white !important;
+    
+}
+
+.heroImage{
+    height:40%;
+    width: 80%;
+    padding-left: 50;
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+

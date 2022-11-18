@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+  color: #666666;
+  font-size: 14px;
+  font-family: 'poppins', sans-serif;
+  line-height: 1.80857;
+  font-weight: normal;
+  overflow-x: hidden;
+
+/* background-image: url('../trivandrum/bg.jpg'); */
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.blur{
+        background-color: rgba(255, 255, 255, 0.95);
+        border-radius: 5px;
+        color: #333;
+        font-family: sans-serif;
+        line-height: 1.5;
+        max-width: 50%;
+        padding: 1rem 2rem;
+        a {
+          color: #bf0222;
+        }
+      }
+      @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+        .blur {
+          -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+          background-color: rgba(255, 255, 255, 0.5);  
+        }
+        .warning {
+            display: none;
+          }
+          html,
+          body {
+            height: 100%;
+            width: 100%;
+          }
+          
+          
+          .center{
+              margin-top: 23%;
+              width: 80vh;
+              
+          }
+          /* nav */
+          .navbar{
+            background-color: rgba(0, 0, 0, 0.411);
+           
+          }
+          .navbar a{
+            color: white !important;
+            text-decoration: none !important;
+          }
+          .navbar:hover{
+            -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+.navbar a:hover{
+  color: black !important;
+  background-color: rgb(11, 230, 128) !important;
+  text-decoration: none;
+}
+          }
+          /* nav dropdown */
+          .dropbtn {
+            /* background-color: #4CAF50; */
+            /* color: white; */
+            /* padding: 16px;
+            font-size: 16px;
+            border: none; */
+          }
+          
+          .dropdown {
+            position: relative;
+            display: inline-block;
+          }
+          
+          .dropdown-content {
+            font-size: 10px;
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+          }
+          
+          .dropdown-content a {
+            color: black !important;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+          }
+          
+          .dropdown-content a:hover {background-color: #ddd;}
+          
+          .dropdown:hover .dropdown-content {display: block;}
+          
+          .dropdown:hover .dropbtn {background-color: #3e8e41;}
+          
+          /* /nav */
+          .carousel{
+            border: 5px solid black;
+            height: 50vh;
+          }
+          
+          .container {
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            height: 100%;
+            width: 100%;
+            margin-top: 2%;
+          }
+          .detail{
+              color:rgb(29, 1, 1);
+              font-family:cursive,'Times New Roman', Times, serif;
+              /* font-weight: bold; */
+
+          }
+          .w3-white{
+            font-size: medium;
+            height: 20em;
+            background-color: rgba(0,0,0,.5));
+  
+          }
+          .hgt{
+            height: 48.5vh;
+          }
+          .blurr{
+           opacity: 0.89;
+            
+            padding: 1rem 2rem;}
+            @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+              .blurr {
+                -webkit-backdrop-filter: blur(10px);
+                backdrop-filter: blur(10px);
+                background-color: rgba(255, 255, 255, 0.5);  
+              }
+              .myMargin{
+               padding: 9px;
+
+                margin-top: 5%;
+                width: 23em;
+                border: 2px solid grey;
+              }
+            
+  .box{
+    height: 16em;
+    border: 8px solid white;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .2s ease-in-out;
+    transition: .2s ease-in-out;
+  }
+  .box:hover{
+    -webkit-transform: scale(.8);
+    transform: scale(.8;
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+  }
+
+  
